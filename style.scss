@@ -15,6 +15,11 @@
     color: white;
 
 
+    hr{
+        height: 1px;
+    }
+
+
 
     .menu{
         width: 60%;
@@ -44,6 +49,7 @@
                 border-radius: 10px;
                 color: white;
                 transition: 0.5s;
+                border: 1px solid rgb(169, 132, 255);
 
                 &:hover{
                     background: transparent;
@@ -89,12 +95,12 @@
         .bottom{
             width: 50%;
             margin: 0 auto;
-            height: 100%;
+            height: 80vh;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            margin-top: 400px;
+            // margin-top: 400px;
             text-shadow: 0 0 5px black;
 
             h1{
@@ -124,6 +130,7 @@
                 &:hover{
                     background-color: transparent;
                     border: 1px solid white;
+                    text-shadow: 0 0 5px rgb(0, 0, 0);
                 }
                }
 
@@ -135,15 +142,93 @@
                 background-color: transparent;
                 transition: 0.5s;
                 margin-left: 10px;
+                text-shadow: 0 0 5px black;
 
                 &:hover{
                     background-color: rgb(169, 132, 255);
-                    border: rgb(169, 132, 255);
+                    border: 1px solid rgb(169, 132, 255);
                 }
                }
             }
         }
 
         
+    }
+}
+
+.section2{
+    width: 100%;
+    height: 70vh;
+
+    .text{
+        width: 65%;
+        margin: 0 auto;
+        // border: 1px solid black;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .card-text{
+            width: 100%;
+            height: 20%;
+
+            h1{
+                font-size: 40px;
+                margin-bottom: 10px;
+            }
+
+        }
+
+        .blocks{
+            width: 100%;
+            // height: 80%;
+            display: flex;
+            justify-content: space-between;
+
+            .card{
+                width: 250px;
+                height: 340px;
+                // border: 1px solid black;
+                box-shadow: 0 0 5px gray;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                i{
+                    font-size: 40px;
+                    color: rgb(61, 61, 61);
+                }
+
+                h3{
+                    margin: 10px 0;
+                }
+
+                p{
+                    text-align: center;
+                    margin: 0 10px;
+                }
+
+                button{
+                    padding: 5px 15px;
+                    margin: 25px 0;
+                    border-radius: 10px;
+                    border: 1px solid rgb(169, 132, 255);
+                    background-color: rgb(169, 132, 255);
+                    color: white;
+                    cursor: pointer;
+                    transition: 0.5s;
+
+                    &:hover{
+                        border: 1px solid black;
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+
     }
 }

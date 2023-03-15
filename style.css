@@ -14,6 +14,9 @@
   background-size: cover;
   color: white;
 }
+.section1 hr {
+  height: 1px;
+}
 .section1 .menu {
   width: 60%;
   margin: 0 auto;
@@ -38,6 +41,7 @@
   border-radius: 10px;
   color: white;
   transition: 0.5s;
+  border: 1px solid rgb(169, 132, 255);
 }
 .section1 .menu .top button:hover {
   background: transparent;
@@ -69,12 +73,11 @@
 .section1 .menu .bottom {
   width: 50%;
   margin: 0 auto;
-  height: 100%;
+  height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 400px;
   text-shadow: 0 0 5px black;
 }
 .section1 .menu .bottom h1 {
@@ -101,6 +104,7 @@
 .section1 .menu .bottom .bottom-button button.child1:hover {
   background-color: transparent;
   border: 1px solid white;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 .section1 .menu .bottom .bottom-button button.child2 {
   padding: 8px 18px;
@@ -110,8 +114,71 @@
   background-color: transparent;
   transition: 0.5s;
   margin-left: 10px;
+  text-shadow: 0 0 5px black;
 }
 .section1 .menu .bottom .bottom-button button.child2:hover {
   background-color: rgb(169, 132, 255);
-  border: rgb(169, 132, 255);
+  border: 1px solid rgb(169, 132, 255);
+}
+
+.section2 {
+  width: 100%;
+  height: 70vh;
+}
+.section2 .text {
+  width: 65%;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section2 .text .card-text {
+  width: 100%;
+  height: 20%;
+}
+.section2 .text .card-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.section2 .text .blocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section2 .text .blocks .card {
+  width: 250px;
+  height: 340px;
+  box-shadow: 0 0 5px gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section2 .text .blocks .card i {
+  font-size: 40px;
+  color: rgb(61, 61, 61);
+}
+.section2 .text .blocks .card h3 {
+  margin: 10px 0;
+}
+.section2 .text .blocks .card p {
+  text-align: center;
+  margin: 0 10px;
+}
+.section2 .text .blocks .card button {
+  padding: 5px 15px;
+  margin: 25px 0;
+  border-radius: 10px;
+  border: 1px solid rgb(169, 132, 255);
+  background-color: rgb(169, 132, 255);
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.section2 .text .blocks .card button:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
